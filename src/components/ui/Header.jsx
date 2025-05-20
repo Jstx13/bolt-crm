@@ -18,7 +18,7 @@ export function Header({ onMenuClick, onNavigate }) {
             </svg>
           </button>
           <div className="flex items-center gap-2">
-            <span className="text-xl font-bold text-primary">Bolt CRM</span>
+            <span className="text-xl font-bold text-primary">CRM</span>
           </div>
           <div className="hidden sm:block">
             <SearchBar />

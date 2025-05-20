@@ -22,7 +22,7 @@ export function MobileMenu({ isOpen, onClose, currentPage, onNavigate }) {
       <div className="fixed inset-y-0 left-0 w-full max-w-xs">
         <Dialog.Panel className="h-full bg-white dark:bg-dark-card shadow-xl">
           <div className="flex h-16 items-center justify-between px-4 border-b border-gray-100 dark:border-gray-800">
-            <span className="text-xl font-bold text-primary">Bolt CRM</span>
+            <span className="text-xl font-bold text-primary">CRM</span>
             <button
               onClick={onClose}
               className="p-2 text-gray-500 hover:bg-gray-100 dark:hover:bg-dark-hover rounded-lg"
