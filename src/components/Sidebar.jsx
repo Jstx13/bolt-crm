@@ -90,31 +90,31 @@ export default function Sidebar({ isOpen, onClose, currentPage, onMenuItemClick 
             </h3>
             <div className="space-y-1">
               <QuickAccessItem
-                image="https://cdn.usegalileo.ai/stability/117a7a12-7704-4917-9139-4a3f76c42e78.png"
-                name="Alice Freeman"
+                image="https://www.gravatar.com/avatar/1?d=mp&f=y"
+                name="Sarah Wilson"
                 lastSeen="2 days ago"
-                amount={200}
+                amount={2500}
                 onClick={() => onMenuItemClick('customers')}
               />
               <QuickAccessItem
-                image="https://cdn.usegalileo.ai/stability/d4e7d763-28f3-4af2-bc57-a26db12c522b.png"
-                name="Bob Smith"
+                image="https://www.gravatar.com/avatar/2?d=mp&f=y"
+                name="Michael Chen"
                 lastSeen="5 days ago"
-                amount={100}
+                amount={1800}
                 onClick={() => onMenuItemClick('customers')}
               />
               <QuickAccessItem
-                image="https://cdn.usegalileo.ai/stability/e9fdb59b-64bb-4239-8e52-f71e0cfb538e.png"
-                name="Charlie Brown"
+                image="https://www.gravatar.com/avatar/3?d=mp&f=y"
+                name="Emma Davis"
                 lastSeen="7 days ago"
-                amount={50}
+                amount={3200}
                 onClick={() => onMenuItemClick('customers')}
               />
               <QuickAccessItem
-                image="https://cdn.usegalileo.ai/stability/1af7ccee-eb75-4af5-b80e-ee2ec64a79ef.png"
-                name="David Jones"
+                image="https://www.gravatar.com/avatar/4?d=mp&f=y"
+                name="James Taylor"
                 lastSeen="10 days ago"
-                amount={300}
+                amount={4100}
                 onClick={() => onMenuItemClick('customers')}
               />
             </div>

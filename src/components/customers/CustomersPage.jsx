@@ -8,37 +8,37 @@ import { AddCustomerModal } from './AddCustomerModal';
 const initialCustomers = [
   {
     id: 1,
-    name: 'Alice Freeman',
-    email: 'alice@example.com',
+    name: 'Sarah Wilson',
+    email: 'sarah@company.com',
     status: 'active',
-    spent: 1200,
+    spent: 2500,
     lastOrder: '2023-12-20',
     avatar: 'https://cdn.usegalileo.ai/stability/117a7a12-7704-4917-9139-4a3f76c42e78.png'
   },
   {
     id: 2,
-    name: 'Bob Smith',
-    email: 'bob@example.com',
+    name: 'Michael Chen',
+    email: 'michael@company.com',
     status: 'inactive',
-    spent: 800,
+    spent: 1800,
     lastOrder: '2023-12-15',
     avatar: 'https://cdn.usegalileo.ai/stability/d4e7d763-28f3-4af2-bc57-a26db12c522b.png'
   },
   {
     id: 3,
-    name: 'Charlie Brown',
-    email: 'charlie@example.com',
+    name: 'Emma Davis',
+    email: 'emma@company.com',
     status: 'active',
-    spent: 2500,
+    spent: 3200,
     lastOrder: '2023-12-18',
     avatar: 'https://cdn.usegalileo.ai/stability/e9fdb59b-64bb-4239-8e52-f71e0cfb538e.png'
   },
   {
     id: 4,
-    name: 'David Jones',
-    email: 'david@example.com',
+    name: 'James Taylor',
+    email: 'james@company.com',
     status: 'active',
-    spent: 3200,
+    spent: 4100,
     lastOrder: '2023-12-19',
     avatar: 'https://cdn.usegalileo.ai/stability/1af7ccee-eb75-4af5-b80e-ee2ec64a79ef.png'
   }

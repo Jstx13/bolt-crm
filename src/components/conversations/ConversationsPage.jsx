@@ -8,12 +8,12 @@ const initialConversations = [
     id: 1,
     customer: {
       id: 1,
-      name: 'Alice Freeman',
-      avatar: 'https://cdn.usegalileo.ai/stability/117a7a12-7704-4917-9139-4a3f76c42e78.png',
+      name: 'Sarah Wilson',
+      avatar: 'https://www.gravatar.com/avatar/1?d=mp&f=y',
       status: 'online'
     },
     lastMessage: {
-      text: 'I need help with my recent order',
+      text: 'Could you help me with my order status?',
       timestamp: '2023-12-22T10:30:00Z',
       unread: true
     },
@@ -21,13 +21,13 @@ const initialConversations = [
       {
         id: 1,
         type: 'customer',
-        text: 'Hi, I need help with my recent order',
+        text: 'Could you help me with my order status?',
         timestamp: '2023-12-22T10:30:00Z'
       },
       {
         id: 2,
         type: 'agent',
-        text: 'Hello Alice! I\'d be happy to help. Could you please provide your order number?',
+        text: 'Hello Sarah! I\'d be happy to help. Could you please provide your order number?',
         timestamp: '2023-12-22T10:31:00Z'
       }
     ]
@@ -36,8 +36,8 @@ const initialConversations = [
     id: 2,
     customer: {
       id: 2,
-      name: 'Bob Smith',
-      avatar: 'https://cdn.usegalileo.ai/stability/d4e7d763-28f3-4af2-bc57-a26db12c522b.png',
+      name: 'Michael Chen',
+      avatar: 'https://www.gravatar.com/avatar/2?d=mp&f=y',
       status: 'offline'
     },
     lastMessage: {

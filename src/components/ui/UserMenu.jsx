@@ -34,8 +34,8 @@ export function UserMenu({ onNavigate }) {
 
       <Menu.Items className="absolute right-0 mt-1 w-56 bg-white dark:bg-dark-card rounded-xl shadow-lg border border-gray-100 dark:border-gray-800 focus:outline-none">
         <div className="p-4 border-b border-gray-100 dark:border-gray-800">
-          <p className="text-sm font-medium text-gray-900 dark:text-white">Alice Freeman</p>
-          <p className="text-sm text-gray-500 dark:text-gray-400">alice@example.com</p>
+          <p className="text-sm font-medium text-gray-900 dark:text-white">Admin User</p>
+          <p className="text-sm text-gray-500 dark:text-gray-400">admin@company.com</p>
         </div>
 
         <div className="p-2">
