@@ -19,11 +19,11 @@ const CustomTooltip = ({ active, payload, label }) => {
         <p className="text-sm font-medium text-gray-900 dark:text-white">{label}</p>
         <div className="mt-1">
           <p className="text-sm">
-            <span className="inline-block w-3 h-3 rounded-sm bg-primary mr-2"></span>
+            <span className="inline-block w-3 h-3 rounded-sm bg-[#3366FF] mr-2"></span>
             New: {payload[0].value}
           </p>
           <p className="text-sm">
-            <span className="inline-block w-3 h-3 rounded-sm bg-emerald-500 mr-2"></span>
+            <span className="inline-block w-3 h-3 rounded-sm bg-[#FFB800] mr-2"></span>
             Returning: {payload[1].value}
           </p>
         </div>
@@ -56,8 +56,8 @@ export function CustomerChart() {
                 className="text-gray-600 dark:text-gray-400"
               />
               <Tooltip content={<CustomTooltip />} />
-              <Bar dataKey="new" fill="#4f46e5" radius={[4, 4, 0, 0]} />
-              <Bar dataKey="returning" fill="#10b981" radius={[4, 4, 0, 0]} />
+              <Bar dataKey="new" fill="#3366FF" radius={[4, 4, 0, 0]} />
+              <Bar dataKey="returning" fill="#FFB800" radius={[4, 4, 0, 0]} />
             </BarChart>
           </ResponsiveContainer>
         </div>
