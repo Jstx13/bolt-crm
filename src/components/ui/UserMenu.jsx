@@ -23,7 +23,7 @@ export function UserMenu({ onNavigate }) {
     <Menu as="div" className="relative">
       <Menu.Button className="flex items-center gap-2 p-1.5 hover:bg-gray-100 dark:hover:bg-dark-hover rounded-lg transition-colors">
         <img
-          src="https://cdn.usegalileo.ai/stability/117a7a12-7704-4917-9139-4a3f76c42e78.png"
+          src="https://www.gravatar.com/avatar/00000000000000000000000000000000?d=mp&f=y"
           alt="User"
           className="w-8 h-8 rounded-full"
         />
